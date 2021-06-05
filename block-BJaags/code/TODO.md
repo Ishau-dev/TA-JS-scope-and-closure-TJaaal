@@ -39,6 +39,7 @@ function multiplyArrayByN(arr, n) {
   return finalArr;
 }
 
+a
 let numbers = multiplyArrayByN(marks);
 ```
 
