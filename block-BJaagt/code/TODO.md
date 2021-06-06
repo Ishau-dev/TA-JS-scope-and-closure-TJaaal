@@ -8,7 +8,7 @@ function hello() {
 }
 console.log(useranme); // output
 ```
-
+n
 In above code we are looking for the variable named `usename`. There is no variable named `username` in the global scope. The variable is inside the function named `hello` and we can't access the variable defined inside a function from outside.
 
 The above code will throw an error `Reference Error username is not defined`.
