@@ -1,7 +1,7 @@
 Find the output of the code snippets below:
 
 ```js
-console.log(numA + numB); //OUTPUT
+console.log(numA + numB); //NaN
 var numA = 21,
   numB = 30;
 ```
@@ -9,7 +9,7 @@ var numA = 21,
 Find the output of the code snippets below:
 
 ```js
-console.log(numA + numB); //OUTPUT
+console.log(numA + numB); //NaN
 let numA = 21,
   numB = 30;
 ```
@@ -19,13 +19,13 @@ Find the output of the code snippets below:
 ```js
 let numA = 21,
   numB = 30;
-console.log(numA + numB); //OUTPUT
+console.log(numA + numB); //Nan
 ```
 
 Find the output of the code snippets below:
 
 ```js
-console.log(sayHello()); // OUTPUT
+console.log(sayHello()); // Hello
 function sayHello() {
   console.log("Hey");
 }
@@ -38,7 +38,7 @@ Find the output of the code snippets below:
 
 ```js
 let username = "Tyrion";
-sayHello(); // OUTPUT
+sayHello(); // Tyrion
 function sayHello() {
   console.log(username);
 }
@@ -47,7 +47,7 @@ function sayHello() {
 Find the output of the code snippets below:
 
 ```js
-sayHello(); // OUTPUT
+sayHello(); // Tyrion
 let username = "Tyrion";
 function sayHello() {
   console.log(username);
@@ -58,7 +58,7 @@ Find the output of the code snippets below:
 
 ```js
 let username = "Tyrion";
-sayHello(); // OUTPUT
+sayHello(); // error
 let sayHello = () => {
   console.log(username);
 };
